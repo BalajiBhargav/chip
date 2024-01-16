@@ -14,7 +14,7 @@ interface UserChipsProps  {
 const UserChips = ({ selectedUsers, deleteUser, count, inputVal }: UserChipsProps) => {
   return (
     <div
-      className={`flex gap-[10px]  ${
+      className={`flex flex-wrap gap-[10px]  ${
         inputVal === "" && count % 2 === 1 ? styles.root : ""
       }`}
     >
