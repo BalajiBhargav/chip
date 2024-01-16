@@ -69,6 +69,12 @@ export const allUsers = [
       "https://assets.entrepreneur.com/content/3x2/2000/20150820205507-single-man-outdoors-happy-bliss.jpeg",
   },
   {
+    id: 7,
+    name: "Rutvik",
+    email: "rutvik@gmail.com",
+    imageUrl: "https://images.unsplash.com/photo-1544642899-f0d6e5f6ed6f",
+  },
+  {
     id: 6,
     name: "Thrisank",
     email: "thrisank@gmail.com",
