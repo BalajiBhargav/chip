@@ -19,7 +19,7 @@ const UserChips = ({ selectedUsers, deleteUser, count, inputVal }: UserChipsProp
       }`}
     >
       {selectedUsers.map((user: User, index: number) => {
-        return <Chip user={user} index={index} deleteUser={deleteUser} />;
+        return <Chip key={user.id} user={user} index={index} deleteUser={deleteUser} />;
       })}
     </div>
   );
